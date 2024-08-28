@@ -1,0 +1,70 @@
+/* 
+    Padding, margin
+    1 valor - todos
+    2 valores - em cima, em baixo
+    4 valores - em cima, dir, em baixo, esqu
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: cornflowerblue;
+}
+.logos {
+    background-image: url('../img/logo.png');
+}
+p {
+    margin-top: 10pt;
+}
+.card {
+    width: 80%;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px ;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}  
+.card-inverse {
+    color:white;
+    background-color: black;
+}      
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.title {
+    font-size: 60pt;
+}        
+.categoria {
+    color: rgb(80,80,80);
+    font-size: 40pt;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.explicacao {
+    color: black;
+    font-size: 14pt;
+    text-align: justify;
+}
+.link {
+    text-align: right;
+    color: steelblue;
+    margin-top: 10px;
+}
+img {
+    margin-right: 20px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+span {
+    vertical-align: middle;
+}
